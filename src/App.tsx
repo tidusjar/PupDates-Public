@@ -54,7 +54,7 @@ function App() {
               className="relative"
             >
               <img
-                src="/hero-image.jpg"
+                src="/pupdates-public/hero-image.svg"
                 alt="Pet owner using PupDates"
                 className="rounded-2xl shadow-2xl"
               />
