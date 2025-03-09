@@ -1,18 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/pupdates-public/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PupDates - Stay Connected with Your Pet</title>
-    <meta name="description" content="PupDates helps pet owners stay connected with their pets through real-time updates, schedules, and photo sharing with pet sitters." />
+    <meta name="description" content="PupDates helps pet owners stay connected with their pets through real-time updates, schedules, and photo sharing with pet sitters.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
-    <base href="/pupdates-public/">
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">PupDates</div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#testimonials">Testimonials</a>
+            </div>
+            <button class="btn btn-primary">Sign Up</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Stay Connected with Your Pet – Anytime, Anywhere!</h1>
+                    <p>Keep track of your pet's care and receive real-time updates from your trusted sitters.</p>
+                    <button class="btn btn-primary">Get Started Now</button>
+                </div>
+                <div class="hero-image">
+                    <img src="images/hero-image.svg" alt="Pet owner using PupDates">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Everything You Need for Pet Care</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon">📅</div>
+                    <h3>Feeding & Medication Schedules</h3>
+                    <p>Set up detailed care routines and never miss important medications.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">📸</div>
+                    <h3>Live Photo & Video Updates</h3>
+                    <p>Receive real-time visual updates of your pet's activities and well-being.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">📍</div>
+                    <h3>Real-time Check-ins</h3>
+                    <p>Track visits and get location-based notifications for peace of mind.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2>How PupDates Works</h2>
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-number">01</div>
+                    <h3>Create a Profile</h3>
+                    <p>Set up your pet's profile with important details and care instructions.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">02</div>
+                    <h3>Share Pet Details</h3>
+                    <p>Invite and share access with your trusted pet sitters.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">03</div>
+                    <h3>Get Live Updates</h3>
+                    <p>Receive real-time updates and photos during pet sitting sessions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Pet Parents Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p>"PupDates gives me peace of mind when I'm away. The real-time updates are amazing!"</p>
+                    <div class="testimonial-author">Sarah M.</div>
+                    <div class="testimonial-role">Dog Parent</div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"The medication tracking feature is a game-changer. My cat's care has never been better organized."</p>
+                    <div class="testimonial-author">Michael R.</div>
+                    <div class="testimonial-role">Cat Parent</div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"As a pet sitter, PupDates makes it easy to keep owners updated and manage multiple pets."</p>
+                    <div class="testimonial-author">Emily L.</div>
+                    <div class="testimonial-role">Pet Sitter</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Join PupDates?</h2>
+            <p>Start managing your pet's care with confidence today.</p>
+            <button class="btn btn-secondary">Join PupDates Today</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>PupDates</h3>
+                    <p>Connecting pet parents with their furry friends, anywhere, anytime.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>support@pupdates.com</li>
+                        <li>1-800-PUPDATES</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#">Twitter</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 PupDates. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
 </html>
